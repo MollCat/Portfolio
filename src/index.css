@@ -6,10 +6,10 @@
 }
 
 body {
-    background-image: url("/assets/images10.jfif");
+    background-image: url("/assets/images12.jfif");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    color: royalblue;
+    color: white;
     font-family: "Embossing Tape BRK";
     font-weight: 400;
     text-shadow: 3px 3px 2px  black;
@@ -17,7 +17,7 @@ body {
 
 a, a:visited {
     text-decoration: none;
-    color: royalblue;
+    color: white;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h1 {
     padding: 0% 5%;
 }
 .social:hover > a {
-    color: red;
+    color: royalblue;
 }
 .contact {
    text-align: right;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .contact:hover > a {
-    color: red;
+    color: royalblue;
 }
 
 .main-social {
@@ -86,7 +86,7 @@ h1 {
     font-size: 0.5em;
 }
 .project-name:hover > a {
-    color: red;
+    color: royalblue;
 }
 
 #contact-section {
