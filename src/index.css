@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Embossing Tape BRK";
+    src: url("../assets/embosst1.ttf") format('truetype'),
+         url("../assets/embosst2.ttf") format('truetype'),
+         url("../assets/embosst3.ttf") format('truetype');
+}
+
+body {
+    background-image: url("../assets/images10.jfif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: royalblue;
+    font-family: "Embossing Tape BRK";
+    font-weight: 400;
+    text-shadow: 3px 3px 2px  black;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: royalblue;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 400%;
+}
+
+
+.section {
+    height: 100vh;
+    padding: 0% 5%;
+}
+.social:hover > a {
+    color: red;
+}
+.contact {
+   text-align: right;
+   margin-left: auto;
+}
+
+.contact:hover > a {
+    color: red;
+}
+
+.main-social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2%;
+    width: 100%;
+}
+
+
+#welcome {
+    height: 100vh;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#webdev {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+#webdev-headings {
+    margin-top: 20%;
+ }
+
+
+#about-section {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10%;
+}
+#about-section-webdev {
+    margin-bottom: 10%;
+}
+#about-webdev {
+    font-size: 150%;
+}
+ 
+#projects {
+   
+    font-size: 0.5em;
+}
+.project-name:hover > a {
+    color: red;
+}
+
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#contact-heading {
+    color: white;
+    margin-top: 15%;
+    text-align: center;
+    font-size: 350%;
+}
+#contact {
+    color: white;
+    margin-bottom: 15%;
+    font-size: 2em;
+    text-align: center;
+    
+}
+
+
+#github-link {
+    margin-left: auto;
+}
+
+
