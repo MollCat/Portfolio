@@ -82,7 +82,8 @@ h1 {
 }
  
 #projects {
-   
+    margin-left: 30%;
+    margin-right: 30%;
     font-size: 0.5em;
 }
 .project-name:hover > a {
