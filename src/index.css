@@ -1,12 +1,12 @@
 @font-face {
     font-family: "Embossing Tape BRK";
-    src: url("../assets/embosst1.ttf") format('truetype'),
-         url("../assets/embosst2.ttf") format('truetype'),
-         url("../assets/embosst3.ttf") format('truetype');
+    src: url("/assets/embosst1.ttf") format('truetype'),
+         url("/assets/embosst2.ttf") format('truetype'),
+         url("/assets/embosst3.ttf") format('truetype');
 }
 
 body {
-    background-image: url("../assets/images10.jfif");
+    background-image: url("/assets/images10.jfif");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: royalblue;
