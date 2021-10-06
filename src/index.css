@@ -82,12 +82,17 @@ h1 {
 }
  
 #projects {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin-left: 30%;
     margin-right: 30%;
-    font-size: 0.5em;
+    font-size: .3em;
 }
 .project-name:hover > a {
     color: royalblue;
+
 }
 
 #contact-section {
